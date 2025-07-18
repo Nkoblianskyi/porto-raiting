@@ -65,13 +65,6 @@ export default function CookiePolicyPage() {
             </p>
           </section>
 
-          <section>
-            <h2 className="text-2xl font-bold mb-4 text-yellow-400">Contact</h2>
-            <p className="text-slate-300 leading-relaxed">
-              Pour toute question concernant notre utilisation des cookies, contactez-nous à :
-              cookies@leparissportifs.com
-            </p>
-          </section>
         </div>
       </div>
     </>

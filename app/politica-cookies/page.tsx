@@ -179,17 +179,6 @@ export default function PoliticaCookiesPage() {
             </div>
           </section>
 
-          <section>
-            <h2 className="text-2xl font-bold mb-4 text-yellow-400">Contacto</h2>
-            <div className="text-slate-300 leading-relaxed bg-green-900/20 p-4 rounded-lg">
-              <p>Se tiver questões sobre a nossa utilização de cookies:</p>
-              <p className="mt-2">
-                <strong>Email:</strong> <span className="text-yellow-400">cookies@apostasdesportivaspt.com</span>
-                <br />
-                <strong>Assunto:</strong> "Questão sobre Cookies"
-              </p>
-            </div>
-          </section>
 
           <div className="text-center mt-8 p-4 bg-blue-900/20 border border-blue-700/50 rounded-lg">
             <p className="text-blue-300 text-sm">
