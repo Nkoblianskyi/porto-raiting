@@ -36,12 +36,6 @@ export function Footer() {
               <Link href="/politica-cookies" className="hover:text-yellow-400">
                 Política de Cookies
               </Link>
-              <Link href="/termos-legais" className="hover:text-yellow-400">
-                Termos Legais
-              </Link>
-              <Link href="/contacto" className="hover:text-yellow-400">
-                Contacto
-              </Link>
             </div>
           </div>
         </div>
@@ -66,12 +60,6 @@ export function Footer() {
             <Link href="/politica-cookies" className="hover:text-yellow-400">
               Política de Cookies
             </Link>
-            <Link href="/termos-legais" className="hover:text-yellow-400">
-              Termos Legais
-            </Link>
-            <Link href="/contacto" className="hover:text-yellow-400">
-              Contacto
-            </Link>
           </div>
 
           {/* 18+ Badge Desktop */}
@@ -87,10 +75,10 @@ export function Footer() {
             <Link
               href="https://www.sicad.pt"
               target="_blank"
-              className="bg-slate-800/50 hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
+              className="bg-white hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
             >
               <img
-                src="/placeholder.svg?height=40&width=80&text=SICAD"
+                src="/icad.png"
                 alt="SICAD"
                 className="h-8 md:h-12 w-auto object-contain"
               />
@@ -99,10 +87,10 @@ export function Footer() {
             <Link
               href="https://www.gamcare.org.uk"
               target="_blank"
-              className="bg-slate-800/50 hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
+              className="bg-white hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
             >
               <img
-                src="/placeholder.svg?height=40&width=80&text=GamCare"
+                src="/gamecare.svg"
                 alt="GamCare"
                 className="h-8 md:h-12 w-auto object-contain"
               />
@@ -111,10 +99,10 @@ export function Footer() {
             <Link
               href="https://www.srij.turismodeportugal.pt"
               target="_blank"
-              className="bg-slate-800/50 hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
+              className="bg-white hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
             >
               <img
-                src="/placeholder.svg?height=40&width=80&text=SRIJ"
+                src="/srij.svg"
                 alt="SRIJ - Serviço de Regulação e Inspeção de Jogos"
                 className="h-8 md:h-12 w-auto object-contain"
               />
@@ -123,10 +111,10 @@ export function Footer() {
             <Link
               href="https://www.gambleaware.org"
               target="_blank"
-              className="bg-slate-800/50 hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
+              className="bg-white hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
             >
               <img
-                src="/placeholder.svg?height=40&width=80&text=GambleAware"
+                src="/gamble.webp"
                 alt="GambleAware"
                 className="h-8 md:h-12 w-auto object-contain"
               />
@@ -135,10 +123,10 @@ export function Footer() {
             <Link
               href="https://www.jogoresponsavel.pt"
               target="_blank"
-              className="bg-slate-800/50 hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
+              className=" hover:bg-slate-700/50 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors"
             >
               <img
-                src="/placeholder.svg?height=40&width=80&text=Jogo+Responsável"
+                src="/jogo2.png"
                 alt="Jogo Responsável"
                 className="h-8 md:h-12 w-auto object-contain"
               />
