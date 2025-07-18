@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export function Header() {
   return (
@@ -7,8 +8,8 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-green-800 to-slate-800 rounded-lg flex items-center justify-center">
-              <span className="text-yellow-400 font-bold text-lg">AP</span>
+            <div className="w-10 h-10 flex items-center justify-center">
+              <Image src="/logo.png" alt="Logo" width={32} height={32} />
             </div>
             <h1 className="text-xl md:text-2xl font-bold text-white">ApostasDesportivasPT</h1>
           </Link>

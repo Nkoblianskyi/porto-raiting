@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Image from "next/image"
+
 
 export function Footer() {
   return (
@@ -45,8 +47,8 @@ export function Footer() {
           {/* Logo e Nome do Site */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-800 to-slate-800 rounded-lg flex items-center justify-center">
-                <span className="text-yellow-400 font-bold text-lg">AP</span>
+              <div className="w-10 h-10 flex items-center justify-center">
+                <Image src="/logo.png" alt="Logo" width={32} height={32} />
               </div>
               <h2 className="text-white font-bold text-xl">ApostasDesportivasPT</h2>
             </div>
