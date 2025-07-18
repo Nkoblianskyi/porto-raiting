@@ -9,10 +9,10 @@ export function Hero() {
   return (
     <section className="py-2 px-4 w-full">
       <div
-        className="container mx-auto max-w-[1220px] max-h-[300px] flex items-center relative bg-white"
+        className="container mx-auto max-w-[1220px] max-h-[300px] flex items-center relative bg-white/90 rounded-lg overflow-hidden mb-8 md:mb-0"
 
       >
-        <div className="absolute inset-0 bg-white/90 z-0"></div>
+        <div className="absolute inset-0z-0"></div>
         <div className="text-center relative z-10 w-full py-8">
           <h1 className="text-2xl md:text-4xl font-bold mb-4">
             <span className="text-green-600">TOP</span> <span className="text-slate-800">CLASSIFICAÇÃO</span>{" "}
@@ -29,7 +29,7 @@ export function Hero() {
 
           <div className="flex items-center justify-center gap-4 md:gap-8 text-xs md:text-sm">
             <div className="flex items-center space-x-2">
-              <img src="/placeholder.svg?height=24&width=36&text=PT" alt="Portugal" className="w-6 h-4 md:w-9 md:h-6" />
+              <img src="/flag.png" alt="Portugal" className="w-6 h-4 md:w-9 md:h-6" />
               <span className="text-slate-800 font-semibold">LICENCIADO</span>
             </div>
 
