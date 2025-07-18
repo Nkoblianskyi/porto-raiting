@@ -138,7 +138,7 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
                 />
               </div>
               <div className="flex-1 text-center pl-4">
-                <div className="text-green-400 font-bold text-sm mb-1">BÓNUS</div>
+                <div className="text-green-400 font-bold text-lg mb-1">BÓNUS</div>
                 <p className="text-yellow-400 font-semibold leading-tight text-lg">{site.bonus}</p>
               </div>
             </div>
