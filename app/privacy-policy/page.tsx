@@ -40,13 +40,6 @@ export default function PrivacyPolicyPage() {
             </p>
           </section>
 
-          <section>
-            <h2 className="text-2xl font-bold mb-4 text-yellow-400">5. Contact</h2>
-            <p className="text-slate-300 leading-relaxed">
-              Pour toute question concernant notre politique de confidentialité, veuillez nous contacter à :
-              privacy@leparissportifs.com
-            </p>
-          </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4 text-yellow-400">6. Modifications</h2>

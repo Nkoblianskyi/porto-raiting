@@ -9,14 +9,16 @@ export function Footer() {
         {/* Mobile Layout */}
         <div className="block md:hidden space-y-6">
           {/* Logo e Nome do Site */}
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-3 mb-4">
-              <div className="w-10 h-10 flex items-center justify-center">
-                <Image src="/logo.png" alt="Logo" width={32} height={32} />
+          <Link href="/">
+            <div className="text-center">
+              <div className="flex items-center justify-center space-x-3 mb-4">
+                <div className="w-10 h-10 flex items-center justify-center">
+                  <Image src="/logo.png" alt="Logo" width={32} height={32} />
+                </div>
+                <h2 className="text-white font-bold text-xl">ApostasDesportivasPT</h2>
               </div>
-              <h2 className="text-white font-bold text-xl">ApostasDesportivasPT</h2>
             </div>
-          </div>
+          </Link>
 
           {/* 18+ Badge Mobile */}
           <div className="flex items-center justify-center gap-3">
@@ -45,14 +47,14 @@ export function Footer() {
         {/* Desktop Layout */}
         <div className="hidden md:flex md:justify-between md:items-center">
           {/* Logo e Nome do Site */}
-          <div>
+          <Link href="/">
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-10 h-10 flex items-center justify-center">
                 <Image src="/logo.png" alt="Logo" width={32} height={32} />
               </div>
               <h2 className="text-white font-bold text-xl">ApostasDesportivasPT</h2>
             </div>
-          </div>
+          </Link>
 
           {/* Navigation Desktop */}
           <div className="flex items-center gap-6 text-slate-300 text-sm">
