@@ -11,8 +11,8 @@ export function Footer() {
           {/* Logo e Nome do Site */}
           <div className="text-center">
             <div className="flex items-center justify-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-800 to-slate-800 rounded-lg flex items-center justify-center">
-                <span className="text-yellow-400 font-bold text-lg">AP</span>
+              <div className="w-10 h-10 flex items-center justify-center">
+                <Image src="/logo.png" alt="Logo" width={32} height={32} />
               </div>
               <h2 className="text-white font-bold text-xl">ApostasDesportivasPT</h2>
             </div>
